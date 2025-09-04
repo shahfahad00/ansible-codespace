@@ -1,0 +1,9 @@
+
+---
+- name: Hello world playbook
+  hosts: local
+  gather_facts: true
+  tasks:
+    - name: Print hello message
+      ansible.builtin.debug:
+        msg: "Hello, DevOps students!"
